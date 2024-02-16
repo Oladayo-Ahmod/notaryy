@@ -57,6 +57,17 @@ Celo Composer allows you to quickly build, deploy, and iterate on decentralized 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+## Security Considerations
+
+- **Secure Key Management**: Avoid hardcoding sensitive information like private keys or API keys directly into the code. Instead, consider using environment variables or secure configuration files.
+  
+- **Input Validation**: Implement robust input validation and sanitization to prevent injection attacks and ensure the integrity of user-provided data.
+
+- **Regular Updates**: Keep dependencies up-to-date to mitigate known vulnerabilities and security risks. Utilize dependency scanning tools for automated vulnerability detection.
+
+- **Authentication and Access Control**: Implement appropriate access controls and authentication mechanisms, particularly for endpoints handling sensitive operations or user data.
+
+
 ## Built With
 
 Celo Composer is built on Celo to make it simple to build dApps using a variety of front-end frameworks, and libraries.
